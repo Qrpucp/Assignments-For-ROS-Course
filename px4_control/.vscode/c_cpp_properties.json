@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/qrpucp/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/qrpucp/catkin_ws/src/mavros/libmavconn/include/**",
+                "/home/qrpucp/catkin_ws/src/mavros/mavros/include/**",
+                "/home/qrpucp/catkin_ws/src/mavros/mavros_msgs/include/**",
+                "/home/qrpucp/catkin_ws/src/mavros/test_mavros/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "msvc-x64",
+            "compilerPath": "C:\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}

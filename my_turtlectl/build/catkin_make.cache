@@ -1,0 +1,2 @@
+my_turtlectl
+-DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/qrpucp/my_turtlectl/devel -DCMAKE_INSTALL_PREFIX=/home/qrpucp/my_turtlectl/install -G Unix Makefiles

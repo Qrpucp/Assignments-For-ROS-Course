@@ -1,0 +1,8 @@
+prefix=/home/qrpucp/my_turtlectl/devel
+
+Name: my_turtlectl
+Description: Description of my_turtlectl
+Version: 0.0.0
+Cflags: -I/home/qrpucp/my_turtlectl/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

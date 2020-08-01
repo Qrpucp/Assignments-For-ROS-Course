@@ -1,0 +1,8 @@
+prefix=/home/qrpucp/px4_control/devel
+
+Name: off_board
+Description: Description of off_board
+Version: 0.0.0
+Cflags: -I/home/qrpucp/px4_control/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

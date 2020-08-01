@@ -1,0 +1,8 @@
+prefix=/home/qrpucp/my_turtlectl/devel
+
+Name: turtlesim
+Description: Description of turtlesim
+Version: 0.10.1
+Cflags: -I/home/qrpucp/my_turtlectl/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime std_msgs std_srvs

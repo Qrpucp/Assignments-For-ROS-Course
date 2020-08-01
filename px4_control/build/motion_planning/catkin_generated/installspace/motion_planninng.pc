@@ -1,0 +1,8 @@
+prefix=/home/qrpucp/px4_control/install
+
+Name: motion_planninng
+Description: Description of motion_planninng
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

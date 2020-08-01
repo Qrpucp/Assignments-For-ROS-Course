@@ -1,0 +1,2 @@
+motion_planning:off_board
+-DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/qrpucp/px4_control/devel -DCMAKE_INSTALL_PREFIX=/home/qrpucp/px4_control/install -G Unix Makefiles

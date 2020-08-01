@@ -1,0 +1,4 @@
+bool find_box_flag
+float64 x_center_dis
+float64 y_center_dis
+float64 box_hight

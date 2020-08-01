@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qrpucp/px4_control/src/off_board/include/mission_planner/CubicSplinePlanner.h
+vector
+-
+Eigen/Dense
+-
+Eigen/LU
+-
+
+/home/qrpucp/px4_control/src/off_board/src/CubicSplinePlanner.cpp
+iostream
+-
+mission_planner/CubicSplinePlanner.h
+/home/qrpucp/px4_control/src/off_board/src/mission_planner/CubicSplinePlanner.h
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qrpucp/px4_control/src/motion_planninng/include/cubic_spline/cubic_spline.h
+
+/home/qrpucp/px4_control/src/motion_planninng/src/cubic_spline.cpp
+stdio.h
+-
+stdlib.h
+-
+cubic_spline/cubic_spline.h
+/home/qrpucp/px4_control/src/motion_planninng/src/cubic_spline/cubic_spline.h
+
