@@ -1,13 +1,14 @@
-### 2020夏-机器人操作系统大作业
+2020夏-机器人操作系统大作业
+----
 
 ```my_turtlectl```为第四讲课程报告中控制小乌龟移动的ROS工作空间。运行以下指令即可运行程序：
 
 ```shell
-#shell 1
+#Terminal 1
+roscore
+#Terminal 2
 rosrun turtlesim turtlesim_node
-#shell 2
-rosrun turtlesim turtle_key_teletop
-#shell 3
+#Terminal 3
 cd ~/my_turtlectl
 source devel/setup.bash
 rosrun my_turtlectl my_turtle_pub
@@ -27,22 +28,24 @@ rosrun my_turtlectl my_turtle_pub
 运行以下指令即可运行代码：
 
 ```shell
-#shell 1
+#Terminal 1
 cd ~/src/Firmware
 make posix_sitl_default gazebo
-#shell 2
+#Terminal 2
 roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
-#shell 3
+#Terminal 3
 cd ~/px4_control
 source devel/setup.bash
 rosrun motion_planning offboard_node
-#shell 4
+#Terminal 4
 cd ~/px4_control
 source devel/setup.bash
 rosrun motion_planning camera_node
 ```
 
 代码运行结果如下图所示：
+
+![](./Picture/end_info.png)
 
 ![](./Picture/qgc_4.png)
 
